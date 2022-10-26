@@ -5,7 +5,8 @@ export const Navbar = () => {
     const section = {
         Home: "/",
         AddUsers: "/add",
-        AllUsers: "/all"
+        AllUsers: "/all",
+        RandomUsers: "/random",
     } 
     const clickHandle= () => {
         const nav= document.querySelector('nav');
