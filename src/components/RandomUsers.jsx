@@ -14,7 +14,12 @@ import {
 const[data,setData] = useState([]);
 const [isLoading, setisLoading] = React.useState(false);
 const[showData,setShowData] = useState(false);
+const [search,setSearch] = useState("");
 
+
+const handleChange = () => {
+
+}
   const handleClick = () => {
     setisLoading(true)
     setShowData(true)
@@ -55,7 +60,13 @@ return (
     )
    : (
     <div><h1>No Users</h1></div>
+    
+    
   )}
+  <div className="user-section">
+    <h2>No users provided</h2>
+  
+  </div>
 </div>
 )
 }

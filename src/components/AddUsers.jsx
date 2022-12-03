@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { useNavigate } from 'react-router-dom';
+import Prent from './Errorboundary/Prent';
 
 export const AddUsers = () => {
   const initialFormData = Object.freeze({
@@ -63,6 +64,7 @@ export const AddUsers = () => {
     <button type='clear'>Clear</button>
     </div>
   </form>
+  <Prent/>
   </div>
   )
 }

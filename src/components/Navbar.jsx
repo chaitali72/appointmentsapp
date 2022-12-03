@@ -7,6 +7,8 @@ export const Navbar = () => {
         AddUsers: "/add",
         AllUsers: "/all",
         RandomUsers: "/random",
+        About: "/about",
+        AboutClass: "/aboutc"
     } 
     const clickHandle= () => {
         const nav= document.querySelector('nav');
